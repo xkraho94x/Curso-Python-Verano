@@ -1,0 +1,22 @@
+git init
+Crea un nuevo repositorio local en la carpeta donde se encuentra, lo que me permite controlar las versiones de mi proyecto
+
+npm init -y
+Crea automáticamente un archivo llamado package.json con valor por defecto, este archivo gestiona las dependencias, los scrips y metadatos
+
+npm install express axios dotenv
+
+Express
+crea servidores webs de forma rápida y sencilla
+
+Axios
+es un cliente http, sirve para hacer peticiones a apis externas
+
+Dotenv
+el más importante, nos permite usar variables de entorno en un archivo llamado .env
+
+npm install nodemon --save-dev
+instala dependencias de desarrollo, no en producción
+
+git config --global user.name "xkraho94x"
+git config --global user.email "kraho94@gmail.com"
